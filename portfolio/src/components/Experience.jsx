@@ -67,13 +67,6 @@ export default function Experience() {
           title:'Machine Learning',
           style:'shadow-white'
         },
-        {
-          id:10,
-          src : dl,
-          title:'Deep Learning',
-          style:'shadow-white'
-        },   
-    
       ]
   return (
     <div name = "skills" className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
