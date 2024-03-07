@@ -11,7 +11,7 @@ export default function SocialLinks() {
            child:(
             <>LinkedIn <FaLinkedin size={30}/></>
            ),
-           href:'https://linkedin.com',
+           href:'https://www.linkedin.com/in/manish-bonala-527b69207/',
            style : 'rounded-tr-md' 
         },
         {
@@ -25,9 +25,9 @@ export default function SocialLinks() {
          {
             id:3,
             child:(
-             <>Twitter <FaLinkedin size={30}/></>
+             <>Twitter <FaTwitter size={30}/></>
             ),
-            href:'https://linkedin.com',
+            href:'https://twitter.com/Manishpspk66586',
             style : 'rounded-tr-md' 
          },
          {

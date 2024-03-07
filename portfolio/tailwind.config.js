@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'varela-round': ['"Varela Round"', 'sans-serif'],
+        'monomaniac-one': ["Monomaniac One", 'sans-serif']
+      },
+    },
   },
   plugins: [],
 }

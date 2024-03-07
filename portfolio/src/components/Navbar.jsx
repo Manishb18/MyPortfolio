@@ -14,12 +14,13 @@ export default function Navbar() {
         },
         {
             id : 3,
-            link : "skills",
+            link : "projects",
         },
         {
             id : 4,
-            link : "projects",
+            link : "skills",
         },
+        
         {
             id : 5,
             link : "contact",
@@ -27,9 +28,9 @@ export default function Navbar() {
     ]
 
   return (
-    <div className='bg-black px-4 flex justify-between items-center w-full h-20 text-white fixed'>
+    <div className='bg-black px-4 flex justify-between items-center w-full h-20 text-white fixed z-10'>
         <div>
-            <h1 className='text-3xl ml-2'>
+            <h1 className='text-4xl ml-2 font-monomaniac-one'>
                 Manish Bonala
             </h1>
         </div>
@@ -47,7 +48,8 @@ export default function Navbar() {
         </div>
         {navActive && <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500'>
         {links.map((item)=>(
-            <li key = {item.id} className='px-4 py-6 cursor-pointer capitalize text-4xl text-gray-500 hover:scale-105 hover:text-white duration-200'><Link onClick = {()=>{
+            <li key = {item.id} className='px-4 py-6 cursor-pointer capitalize text-4xl text-gray-500 hover:scale-105 hover:text-white duration-200'>
+            <Link onClick = {()=>{
                 setNavActive(!navActive)
             }} to={item.link} smooth duration={500}>{item.link}</Link></li>
             ))
