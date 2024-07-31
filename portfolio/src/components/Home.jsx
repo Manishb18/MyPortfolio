@@ -1,5 +1,6 @@
 import React from 'react'
 import heroImage from '../assets/heroImage.jpeg'
+import mainImage from '../assets/me.png'
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { Link } from 'react-scroll';
 export default function Home() {
@@ -21,7 +22,7 @@ export default function Home() {
         </div>
 
         <div className=''>
-            <img src={heroImage} alt="My Profile" className='rounded-2xl  w-[40vw] h-[50vh] md:w-full md:ml-4'/>
+            <img src={mainImage} alt="My Profile" className='rounded-2xl  w-[40vw] h-[50vh] md:w-full md:ml-4'/>
         </div>
       </div>
     </div>
