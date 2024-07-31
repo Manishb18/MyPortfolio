@@ -14,7 +14,7 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-8">
-        I am currently pursuing my B.Tech at Kakatiya Instiute of Technology and Science, Warangal in the brach Computer Science and Engineering specialized with Artificial Intelligence and Machine learning. I hold a CGPA of 8.76.
+        I have pursued my B.Tech at Kakatiya Instiute of Technology and Science, Warangal in the brach Computer Science and Engineering specialized with Artificial Intelligence and Machine learning with a CGPA of 8.88. I am currently working as a junior full stack developer at a startup called Wielabs.
         </p>
 
         <br />
